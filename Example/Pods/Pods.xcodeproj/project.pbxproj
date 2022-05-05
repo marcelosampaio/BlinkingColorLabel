@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		3BDF9C7170DA35B002749DE2CD75102E /* Pods-BlinkingColorLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F886FAF624AB8F488398E078806F2D8 /* Pods-BlinkingColorLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50FE8D1FCFE6A55026C699DC33E4CB57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		5F0077C2549E3206B9C700622A998A87 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275230EFB44DDA29FB701068E0D0810C /* ReplaceMe.swift */; };
 		69ADD5319A41DC400DF28462A307F254 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7F7F0B192824523C003DA2E9 /* BlinkingColorLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7F0B182824523C003DA2E9 /* BlinkingColorLabel.swift */; };
 		D86F0CF5A1FE23F5ECDBC04995FA194D /* BlinkingColorLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BBD497CAC22495921604538716638B /* BlinkingColorLabel-dummy.m */; };
 		E6DD34874E067932002BEBADE84C37D0 /* Pods-BlinkingColorLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB6C27108BDB1E4ACCB566CD8FF434DF /* Pods-BlinkingColorLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC927D205BB79A2DB5276DDEBE5842FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -39,18 +39,18 @@
 /* Begin PBXFileReference section */
 		0A2F9EDF04D0A42403E43E65D290813A /* BlinkingColorLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlinkingColorLabel-umbrella.h"; sourceTree = "<group>"; };
 		0D2AF3A044D860794C70F79E7E45BB9C /* Pods-BlinkingColorLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BlinkingColorLabel_Example.modulemap"; sourceTree = "<group>"; };
-		275230EFB44DDA29FB701068E0D0810C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = BlinkingColorLabel/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		3372FA6DBFB7171A2E7D78F8BAEAFC4B /* BlinkingColorLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlinkingColorLabel.debug.xcconfig; sourceTree = "<group>"; };
 		3780279D3C1548A9163F56A7CF0C57B5 /* BlinkingColorLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlinkingColorLabel.release.xcconfig; sourceTree = "<group>"; };
-		37D709F279E351D317790EA7BD15D6E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		37D709F279E351D317790EA7BD15D6E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5DC710B1BEE3EB62086AB2F75CDD219A /* BlinkingColorLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BlinkingColorLabel.modulemap; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		791934AF5D7F31D8905E4D1F17013402 /* Pods-BlinkingColorLabel_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BlinkingColorLabel_Tests"; path = Pods_BlinkingColorLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F7B8174128453A3910A75AEA2A527A5 /* Pods-BlinkingColorLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlinkingColorLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F7F0B182824523C003DA2E9 /* BlinkingColorLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinkingColorLabel.swift; sourceTree = "<group>"; };
 		861F791D303BB373EDFA3A2A0E3ABF1E /* Pods-BlinkingColorLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlinkingColorLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8D4ADDA8ACD66A90BD1EEDEAF104C4A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8D4ADDA8ACD66A90BD1EEDEAF104C4A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8F886FAF624AB8F488398E078806F2D8 /* Pods-BlinkingColorLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BlinkingColorLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E95EA167BE16B74625C41909C0673DF /* Pods-BlinkingColorLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BlinkingColorLabel_Example-dummy.m"; sourceTree = "<group>"; };
 		A2D64ED487536A35DA3764CFC47F861F /* Pods-BlinkingColorLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BlinkingColorLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A355714E9DC24AEA43889D2C05509DD7 /* Pods-BlinkingColorLabel_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlinkingColorLabel_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 		BB67CB3C7B612EC4B17782D2C7B74095 /* BlinkingColorLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlinkingColorLabel-prefix.pch"; sourceTree = "<group>"; };
 		BEC6FED929183889EB29BED2142D5AA9 /* Pods-BlinkingColorLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlinkingColorLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C9A7EE8B833517DD199CCC0644349440 /* Pods-BlinkingColorLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BlinkingColorLabel_Tests.modulemap"; sourceTree = "<group>"; };
-		CAC948C6136DC20CD9D467981724211C /* BlinkingColorLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BlinkingColorLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CAC948C6136DC20CD9D467981724211C /* BlinkingColorLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BlinkingColorLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E2DE5C2B2C93FF98136C169444FCB4EE /* Pods-BlinkingColorLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BlinkingColorLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EB070ADF40CC572DFEB22398508C1BC3 /* Pods-BlinkingColorLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlinkingColorLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F717CE74431B60D14A48DF60DBEDB293 /* Pods-BlinkingColorLabel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlinkingColorLabel_Example-Info.plist"; sourceTree = "<group>"; };
@@ -119,9 +119,9 @@
 		4AA62B64D2E223290F9F82EE0888FECE /* BlinkingColorLabel */ = {
 			isa = PBXGroup;
 			children = (
-				275230EFB44DDA29FB701068E0D0810C /* ReplaceMe.swift */,
 				FD198E14D7077BF2D5E37E33232C3F37 /* Pod */,
 				882F8FBF300A6D38E6898ECA838EFB12 /* Support Files */,
+				7F7F0B182824523C003DA2E9 /* BlinkingColorLabel.swift */,
 			);
 			name = BlinkingColorLabel;
 			path = ../..;
@@ -368,7 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D86F0CF5A1FE23F5ECDBC04995FA194D /* BlinkingColorLabel-dummy.m in Sources */,
-				5F0077C2549E3206B9C700622A998A87 /* ReplaceMe.swift in Sources */,
+				7F7F0B192824523C003DA2E9 /* BlinkingColorLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,8 +655,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
